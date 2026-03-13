@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="./projects.css">
+</head>
+<body>
+    <main class="page">
+        <section class="projects" aria-labelledby="projects-title">
+            <div class="topbar">
+                <button class="menu-btn" type="button" aria-label="Open menu" aria-controls="side-menu" aria-expanded="false">
+                    <span class="menu-btn__line"></span>
+                    <span class="menu-btn__line"></span>
+                    <span class="menu-btn__line"></span>
+                </button>
+                <div class="topbar__brand">My Projects</div>
+                <a class="topbar__home" href="portfolio.html" aria-label="Go to Home page">Home</a>
+            </div>
+
+            <div class="overlay" data-overlay hidden></div>
+            <aside id="side-menu" class="sidebar" aria-label="Projects menu" aria-hidden="true">
+                <div class="sidebar__header">
+                    <div class="sidebar__title">Projects</div>
+                    <button class="sidebar__close" type="button" aria-label="Close menu">
+                        ✕
+                    </button>
+                </div>
+                <nav class="sidebar__nav" aria-label="Project links">
+                    <a class="sidebar__link" href="portfolio.html">Home</a>
+                    <a class="sidebar__link" href="#task-todo">Task To Do App</a>
+                    <a class="sidebar__link" href="#calculator">Calculator</a>
+                    <a class="sidebar__link" href="#weather">Weather App</a>
+                    <a class="sidebar__link" href="#currency">Currency Converter</a>
+                    <a class="sidebar__link" href="#qr-generator">QR Code Generator</a>
+                    <a class="sidebar__link" href="#digital-clock">Digital Clock</a>
+                </nav>
+            </aside>
+
+            <header class="projects__header">
+                <h1 id="projects-title" class="projects__title">Projects</h1>
+                <p class="projects__subtitle">A few things I’ve built recently.</p>
+            </header>
+
+            <div class="projects__grid">
+                <article id="task-todo" class="project-card">
+                    <div class="project-card__top">
+                        <h2 class="project-card__title">Task To Do App</h2>
+                        <p class="project-card__desc">A simple productivity app to add, complete, and manage tasks.</p>
+                    </div>
+                    <div class="project-card__meta">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="project-card__actions">
+                        <a class="btn btn--primary" href="#" aria-label="Open Task To Do App live demo">Live Demo</a>
+                        <a class="btn btn--ghost" href="#" aria-label="Open Task To Do App source code">Source</a>
+                    </div>
+                </article>
+
+                <article id="calculator" class="project-card">
+                    <div class="project-card__top">
+                        <h2 class="project-card__title">Calculator</h2>
+                        <p class="project-card__desc">A clean calculator UI with basic operations and keyboard-friendly input.</p>
+                    </div>
+                    <div class="project-card__meta">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="project-card__actions">
+                        <a class="btn btn--primary" href="#" aria-label="Open Calculator live demo">Live Demo</a>
+                        <a class="btn btn--ghost" href="#" aria-label="Open Calculator source code">Source</a>
+                    </div>
+                </article>
+
+                <article id="weather" class="project-card">
+                    <div class="project-card__top">
+                        <h2 class="project-card__title">Weather App</h2>
+                        <p class="project-card__desc">Search weather by city with temperature, conditions, and a polished layout.</p>
+                    </div>
+                    <div class="project-card__meta">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="project-card__actions">
+                        <a class="btn btn--primary" href="#" aria-label="Open Weather App live demo">Live Demo</a>
+                        <a class="btn btn--ghost" href="#" aria-label="Open Weather App source code">Source</a>
+                    </div>
+                </article>
+
+                <article id="currency" class="project-card">
+                    <div class="project-card__top">
+                        <h2 class="project-card__title">Currency Converter</h2>
+                        <p class="project-card__desc">Convert between currencies with a simple form and clean results display.</p>
+                    </div>
+                    <div class="project-card__meta">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        
+                    </div>
+                    <div class="project-card__actions">
+                        <a class="btn btn--primary" href="#" aria-label="Open Currency Converter live demo">Live Demo</a>
+                        <a class="btn btn--ghost" href="#" aria-label="Open Currency Converter source code">Source</a>
+                    </div>
+                </article>
+
+                <article id="qr-generator" class="project-card">
+                    <div class="project-card__top">
+                        <h2 class="project-card__title">QR Code Generator</h2>
+                        <p class="project-card__desc">Generate QR codes from text/links with a simple, clean interface.</p>
+                    </div>
+                    <div class="project-card__meta">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="project-card__actions">
+                        <a class="btn btn--primary" href="#" aria-label="Open QR Code Generator live demo">Live Demo</a>
+                        <a class="btn btn--ghost" href="#" aria-label="Open QR Code Generator source code">Source</a>
+                    </div>
+                </article>
+
+                <article id="digital-clock" class="project-card">
+                    <div class="project-card__top">
+                        <h2 class="project-card__title">Digital Clock</h2>
+                        <p class="project-card__desc">A real-time digital clock with a modern UI and smooth updates.</p>
+                    </div>
+                    <div class="project-card__meta">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="project-card__actions">
+                        <a class="btn btn--primary" href="#" aria-label="Open Digital Clock live demo">Live Demo</a>
+                        <a class="btn btn--ghost" href="#" aria-label="Open Digital Clock source code">Source</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const sidebar = document.querySelector(".sidebar");
+        const overlay = document.querySelector("[data-overlay]");
+        const closeBtn = document.querySelector(".sidebar__close");
+        const menuLinks = document.querySelectorAll(".sidebar__link");
+
+        function setMenuOpen(isOpen) {
+            menuBtn.setAttribute("aria-expanded", String(isOpen));
+            sidebar.setAttribute("aria-hidden", String(!isOpen));
+            overlay.hidden = !isOpen;
+            document.body.classList.toggle("no-scroll", isOpen);
+            document.body.classList.toggle("menu-open", isOpen);
+        }
+
+        menuBtn.addEventListener("click", () => {
+            const isOpen = menuBtn.getAttribute("aria-expanded") === "true";
+            setMenuOpen(!isOpen);
+        });
+
+        closeBtn.addEventListener("click", () => setMenuOpen(false));
+        overlay.addEventListener("click", () => setMenuOpen(false));
+        menuLinks.forEach((a) => a.addEventListener("click", () => setMenuOpen(false)));
+
+        document.addEventListener("keydown", (e) => {
+            if (e.key === "Escape") setMenuOpen(false);
+        });
+    </script>
+</body>
+</html>
